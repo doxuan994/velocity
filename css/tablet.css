@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1200px) {
+    .flex-container {
+        justify-content: space-evenly;
+    }
+    .box {
+        flex-basis: 400px;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .flex-container {
+        justify-content: space-evenly;
+    }
+    .box {
+        flex-basis: 600px;
+    }
+}

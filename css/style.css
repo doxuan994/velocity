@@ -1,0 +1,85 @@
+/* Full height viewport */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+img, figure {
+    max-width: 100%;
+}
+
+h1 {
+    background: #eee;
+    margin-top: 100px;
+    padding: 2.5em;
+}
+h2 {
+    padding: 1em 0;
+}
+
+p {
+    line-height: 1.8;
+    text-align: justify;
+}
+
+#plain-page {
+    background: #fafafa;
+}
+
+/* CSS Flexbox Layout */
+.flex-full-height {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: auto;
+    min-height : 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box {
+    flex-basis: 500px;
+    padding: 2em;
+    background: #eee;
+}
+
+/* Header */
+#main-header-container {
+    background: #2e2e2e;
+    top: 50px;
+}
+
+
+/* Adding a Scroll Down Anchor to your Website */
+/* Scroll Button */
+.ct-btn-scroll {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 500px;
+    z-index: 9;
+    border-radius: 50%;
+    -webkit-transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out;
+}
+
+
+/* Section */

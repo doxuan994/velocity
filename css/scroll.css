@@ -1,0 +1,13 @@
+#box2,
+#box3 {
+    transition: all 1s;
+}
+
+@media only screen and (min-width: 1400px) {
+    .moveRight {
+        transform: translateX(100px);
+    }
+    .moveLeft {
+        transform: translateX(-100px);
+    }
+}
