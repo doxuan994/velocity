@@ -23,9 +23,9 @@ window.addEventListener('load', function() {
 
         if (!scrollLock) {
             let clientY = section2.getBoundingClientRect().top;
-            console.log("clientY = " + clientY);
+            // console.log("clientY = " + clientY);
             if (clientY < 10) {
-                console.log("Show boxes!! yahhhh");
+                // console.log("Show boxes!! yahhhh");
                 // Do something with the boxes
                 box2.classList.add('moveRight');
                 box3.classList.add('moveLeft');
